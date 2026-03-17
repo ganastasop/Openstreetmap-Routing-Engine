@@ -2,9 +2,9 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -fsanitize=address
 LDFLAGS = -fsanitize=address
-EXEC = hw5
+EXEC = main
 
-SRC = HW5.cpp Edge.cpp Vertex.cpp Graph.cpp tinyxml2.cpp
+SRC = main.cpp Edge.cpp Vertex.cpp Graph.cpp tinyxml2.cpp
 OBJ = $(SRC:.cpp=.o)
 DEPS = Edge.hpp Vertex.hpp Graph.hpp tinyxml2.h
 
